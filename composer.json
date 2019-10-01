@@ -20,7 +20,7 @@
 		"wikifab/explore": "*",
 		"wikifab/groups-page":"*",
 		"wikifab/image-annotator": "*",
-		"wikifab/InputBox": "^128.1.0",
+		"wikifab/input-box": "^128.2.0",
 		"wikifab/mms-upload": "*",
 		"wikifab/multimedia-viewer":"*",
 		"wikifab/page-forms": "*",
