@@ -1,0 +1,7 @@
+{
+    "name": "wikifab/wikifab",
+    "description": "Mediawiki extension to build a Wikifab-like wiki",
+    "type": "mediawiki-extension",
+    "require": {
+    }
+}

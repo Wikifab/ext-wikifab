@@ -1,0 +1,45 @@
+{
+	"name": "Wikifab",
+	"version": "1.0.0",
+	"author": [
+		"Pierre Boutet"
+	],
+	"url": "https://github.com/wikifab/ext-wikifab",
+	"descriptionmsg": "ext-wikifab-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"Page Forms": "*"
+		}
+	},
+	"callback": "Wikifab\\Hooks::onRegistration",
+	"ExtensionFunctions": [
+			"Wikifab\\Hooks::initialize"
+	],
+	"Hooks": {
+		"BeforePageDisplay": [
+			"Wikifab\\Hooks::onBeforePageDisplay"
+		],
+	},
+	"MessagesDirs": {
+		"Wikifab": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.wikifab.css": {
+			"position": "top",
+			"styles": "ressources/wikifab.css"
+		},
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Wikifab"
+	},
+	"AutoloadClasses": {
+		"Wikifab\\Hooks": "includes/Hooks.php"
+	},
+	"manifest_version": 1
+}
