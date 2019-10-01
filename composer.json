@@ -3,7 +3,6 @@
     "description": "Mediawiki extension to build a Wikifab-like wiki",
     "type": "mediawiki-extension",
     "require": {
-		"mediawiki/comment-streams": "dev-REL1_31",
 		"mediawiki/semantic-extra-special-properties": "~2.0",
 		"mediawiki/semantic-media-wiki": "2.5.6",
 		"mediawiki/user-functions": "~2.6",
