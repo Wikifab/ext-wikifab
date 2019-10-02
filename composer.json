@@ -4,7 +4,7 @@
     "type": "mediawiki-extension",
     "require": {
 		"mediawiki/semantic-extra-special-properties": "~2.0",
-		"mediawiki/semantic-media-wiki": "2.5.6",
+		"mediawiki/semantic-media-wiki": "3.0.2",
 		"mediawiki/user-functions": "~2.6",
 		"tinymighty/wiki-seo": "^1.2.2",
 		"wikifab/author-div": "*",
