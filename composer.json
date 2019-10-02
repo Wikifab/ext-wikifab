@@ -42,8 +42,8 @@
 		"wikifab/users-watchlist":"*",
 		"wikifab/ve-force-reload": "*",
 		"wikifab/ve-templates": "*",
-		"wikifab/wfext-style": "dev-master",
+		"wikifab/wfext-style": "*",
 		"wikifab/widgets": "*",
-		"wikifab/wikifab-style-module": "dev-master"
+		"wikifab/wikifab-style-module": "*"
     }
 }
