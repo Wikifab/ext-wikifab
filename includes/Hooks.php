@@ -9,7 +9,7 @@ class Hooks {
 		if ( ! isset($wgInitPages) ) {
 			$wgInitPages = [];
 		}
-		$wgInitPages[] = dirname( __DIR__) . "/initPages/dokit-base";
+		array_unshift($wgInitPages, dirname( __DIR__) . "/initPages/dokit-base");
 	}
 
 	public static function initialize() {
