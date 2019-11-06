@@ -21,7 +21,7 @@
 	"Hooks": {
 		"BeforePageDisplay": [
 			"Wikifab\\Hooks::onBeforePageDisplay"
-		],
+		]
 	},
 	"MessagesDirs": {
 		"Wikifab": [
@@ -32,7 +32,7 @@
 		"ext.wikifab.css": {
 			"position": "top",
 			"styles": "ressources/wikifab.css"
-		},
+		}
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
