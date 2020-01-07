@@ -281,6 +281,7 @@
 	"wf-systemmessages-userboard-boardtoboard":"All my messages with this user",
 	"wf-systemmessages-welcomeuser":"You're almost there!",
 	"wf-systemmessages-welcomecreation":"You will receive an email with an account creation confirmation link.",
+	"wf-systemmessages-translation-intro":"This page is a translated version of the page [[$2]] and the translation is completed at $3 %",
 	"wf-systemmessages-translation-introbtn":"Contribute to the translation",
 	"help-maintitle":"Help center",
 	"help-subtitle":"A question? Search by topic in the list bellow.",
